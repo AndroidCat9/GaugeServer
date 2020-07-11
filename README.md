@@ -11,4 +11,5 @@ Raspberry Pi DHT11 temperature and humidity server in LCARS HTML and JSON format
 
 ## Resources
 * [Device Trees, overlays, and parameters](https://www.raspberrypi.org/documentation/configuration/device-tree.md)
+* [From Data to Graph. a Web Journey With Flask and SQLite](https://www.instructables.com/id/From-Data-to-Graph-a-Web-Jorney-With-Flask-and-SQL/), mjrovai.
 * [LCARS CSS Grid](https://home.hmt3design.com/wp-content/projects/lcars_css_grid/)
