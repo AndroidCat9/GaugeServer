@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gauges</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/colors.css">
+    <meta http-equiv="refresh" content="60"/>
+    <style>
+      #g1,
+      #g2 {
+            width: 200px;
+	    height: 160px;
+	    display: inline-block;
+	  }
+    </style>
+</head>
+<body>
+<div id="header">
+    <div id="endcap_left_header">
+        <svg class="lc235703">
+            <use xlink:href="/static/svg/sprites.svg#lcars-svg-endcap_left" height="30" width="45"></use>
+        </svg>
+    </div>
+    <div id="block_header" class="blocktext_black">
+    </div>
+    <div id="headline_header">ENVIRONMENTAL</div>
+    <div id="endcap_right_header">
+        <svg class="lc235703">
+            <use xlink:href="/static/svg/sprites.svg#lcars-svg-endcap_right" height="30" width="45"></use>
+        </svg>
+    </div>
+</div>
+<br>
+<div id="main">
+    <div id="main_top">
+        <div id="elbow_left_top_main">
+            <svg class="lc236907">
+                <use xlink:href="/static/svg/sprites.svg#lcars-svg-elbow_left_top" height="90" width="300"></use>
+            </svg>
+        </div>
+        <div id="block_main">
+        </div>
+        <div id="headline_main">{{hostname}}</div>
+        <div id="endcap_right_main">
+            <svg class="lc236907">
+                <use xlink:href="/static/svg/sprites.svg#lcars-svg-endcap_right" height="30" width="45"></use>
+            </svg>
+        </div>
+    </div>
+    <div id="main_center">
+        <div id="main_buttons">
+            <div id="main_button_column">
+                <button class="button01">FORECAST</button>
+                <button class="button01">HISTORY</button>
+                <button class="button01">ZUNK</button>
+            </div>
+            <div id="main_button_block">
+            </div>
+        </div>
+        <div id="main_text" class="text">
+          <div id="g1"></div>
+          <div id="g2"></div>
+          <h2>STARDATE {{ time }}</h2>
+        </div>
+    </div>
+    <div id="main_bottom">
+        <div id="elbow_left_bottom_main">
+            <svg class="lc236907">
+                <use xlink:href="/static/svg/sprites.svg#lcars-svg-elbow_left_bottom" height="90" width="300"></use>
+            </svg>
+        </div>
+        <div id="block_main_bottom">
+        </div>
+        <div id="endcap_right_main_bottom">
+            <svg class="lc236907">
+                <use xlink:href="/static/svg/sprites.svg#lcars-svg-endcap_right" height="30" width="45"></use>
+            </svg>
+        </div>
+    </div>
+</div>
+
+<script src="/static/js/raphael-2.1.4.min.js"></script>
+<script src="/static/js/justgage.js"></script>
+<script>
+    var g1, g2;
+    document.addEventListener("DOMContentLoaded", function(event) {
+	    g1 = new JustGage({
+		    id: "g1",
+		    value: {{temp}},
+                    valueFontFamily: "Gill Sans MT Condensed",
+		    valueFontColor: "yellow",
+                    titleFontFamily: "Gill Sans MT Condensed",
+		    titleFontColor: "yellow",
+		    min: -10,
+		    max: 50,
+		    title: "TEMPERATURE",
+		    label: "CELCIUS"
+	    });
+
+	    g2 = new JustGage({
+		    id: "g2",
+		    value: {{hum}},
+                    valueFontFamily: "Gill Sans MT Condensed",
+		    valueFontColor: "yellow",
+                    titleFontFamily: "Gill Sans MT Condensed",
+		    titleFontColor: "yellow",
+		    min: 0,
+		    max: 100,
+		    title: "HUMIDITY",
+		    label: "%"
+	    });
+
+    });
+</script>
+
+</body>
+</html>

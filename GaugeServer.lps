@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Release"/>
+    <Units Count="10">
+      <Unit0>
+        <Filename Value="GaugeServer.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="49" Y="13"/>
+        <UsageCount Value="172"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="GaugeForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="103"/>
+        <CursorPos X="24" Y="126"/>
+        <UsageCount Value="218"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value=".gitignore.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="31"/>
+        <UsageCount Value="105"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="Weather.lpr"/>
+        <UnitName Value="GaugeServer"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="38" Y="24"/>
+        <UsageCount Value="203"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="templates\index.html"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="27"/>
+        <CursorPos X="46" Y="56"/>
+        <UsageCount Value="100"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="HTML"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="static\style.css"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="51" Y="2"/>
+        <UsageCount Value="1"/>
+        <DefaultSyntaxHighlighter Value="CSS"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="static\css\style.css"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="3"/>
+        <CursorPos Y="4"/>
+        <UsageCount Value="115"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="CSS"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="static\css\colors.css"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="10" Y="26"/>
+        <UsageCount Value="113"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="CSS"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="betabang\pi\Indy\Lib\Core\IdThread.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="506"/>
+        <CursorPos X="39" Y="522"/>
+        <UsageCount Value="16"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="static\js\justgage.js"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="33" Y="29"/>
+        <UsageCount Value="53"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="JScript"/>
+      </Unit9>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="main.pas"/>
+        <Caret Line="197" TopLine="173"/>
+      </Position1>
+      <Position2>
+        <Filename Value="main.pas"/>
+        <Caret Line="198" TopLine="175"/>
+      </Position2>
+      <Position3>
+        <Filename Value="main.pas"/>
+        <Caret Line="203" TopLine="179"/>
+      </Position3>
+      <Position4>
+        <Filename Value="main.pas"/>
+        <Caret Line="205" TopLine="181"/>
+      </Position4>
+      <Position5>
+        <Filename Value="main.pas"/>
+        <Caret Line="206" TopLine="182"/>
+      </Position5>
+      <Position6>
+        <Filename Value="main.pas"/>
+        <Caret Line="207" TopLine="183"/>
+      </Position6>
+      <Position7>
+        <Filename Value="main.pas"/>
+        <Caret Line="209" TopLine="185"/>
+      </Position7>
+      <Position8>
+        <Filename Value="main.pas"/>
+        <Caret Line="164" TopLine="149"/>
+      </Position8>
+      <Position9>
+        <Filename Value="main.pas"/>
+        <Caret Line="165" TopLine="149"/>
+      </Position9>
+      <Position10>
+        <Filename Value="main.pas"/>
+        <Caret Line="166" TopLine="149"/>
+      </Position10>
+      <Position11>
+        <Filename Value="main.pas"/>
+        <Caret Line="120" TopLine="105"/>
+      </Position11>
+      <Position12>
+        <Filename Value="main.pas"/>
+        <Caret Line="125" TopLine="105"/>
+      </Position12>
+      <Position13>
+        <Filename Value="main.pas"/>
+        <Caret Line="128" TopLine="105"/>
+      </Position13>
+      <Position14>
+        <Filename Value="main.pas"/>
+        <Caret Line="133" TopLine="110"/>
+      </Position14>
+      <Position15>
+        <Filename Value="main.pas"/>
+        <Caret Line="137" TopLine="113"/>
+      </Position15>
+      <Position16>
+        <Filename Value="main.pas"/>
+        <Caret Line="138" TopLine="114"/>
+      </Position16>
+      <Position17>
+        <Filename Value="main.pas"/>
+        <Caret Line="139" TopLine="115"/>
+      </Position17>
+      <Position18>
+        <Filename Value="main.pas"/>
+        <Caret Line="142" TopLine="118"/>
+      </Position18>
+      <Position19>
+        <Filename Value="main.pas"/>
+        <Caret Line="144" TopLine="120"/>
+      </Position19>
+      <Position20>
+        <Filename Value="main.pas"/>
+        <Caret Line="147" Column="3" TopLine="125"/>
+      </Position20>
+      <Position21>
+        <Filename Value="main.pas"/>
+        <Caret Line="174" Column="5" TopLine="96"/>
+      </Position21>
+      <Position22>
+        <Filename Value="main.pas"/>
+        <Caret Line="167" TopLine="152"/>
+      </Position22>
+      <Position23>
+        <Filename Value="main.pas"/>
+        <Caret Line="168" TopLine="152"/>
+      </Position23>
+      <Position24>
+        <Filename Value="main.pas"/>
+        <Caret Line="169" TopLine="152"/>
+      </Position24>
+      <Position25>
+        <Filename Value="main.pas"/>
+        <Caret Line="171" TopLine="152"/>
+      </Position25>
+      <Position26>
+        <Filename Value="main.pas"/>
+        <Caret Line="174" TopLine="152"/>
+      </Position26>
+      <Position27>
+        <Filename Value="main.pas"/>
+        <Caret Line="167" TopLine="152"/>
+      </Position27>
+      <Position28>
+        <Filename Value="main.pas"/>
+        <Caret Line="168" TopLine="153"/>
+      </Position28>
+      <Position29>
+        <Filename Value="main.pas"/>
+        <Caret Line="156" Column="54" TopLine="148"/>
+      </Position29>
+      <Position30>
+        <Filename Value="static\js\justgage.js"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
